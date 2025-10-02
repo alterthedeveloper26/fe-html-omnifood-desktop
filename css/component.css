@@ -51,7 +51,7 @@
   border-radius: 10px;
   display: inline-block;
   color: #333;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .btn--full:visited,
@@ -80,4 +80,20 @@
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.link:active,
+.link:hover {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
