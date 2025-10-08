@@ -7,6 +7,10 @@ header {
   padding: 0 4.8rem;
 }
 
+.header {
+  position: relative;
+}
+
 .logo {
   height: 2.2rem;
 }

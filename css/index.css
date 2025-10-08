@@ -10,8 +10,10 @@
    - #fae5d3 
    - #e1cebe
   main: #e67e22
-  shades: #cf711f
-  accents
+  shades: 
+   - #cf711f
+   - #2e1907
+  accents: 
   greys:
    - #6f6f6f
    - #555
@@ -29,6 +31,14 @@
   margin: 0px;
   box-sizing: border-box;
   font-size: 62.5%;
+  /* overflow-x: hidden; */
+}
+
+*:focus {
+  /* outline: 4px dotted #cf711f;
+  outline-offset: 5px; */
+  outline: none;
+  box-shadow: 0 0 0 0.8rem #af601a75;
 }
 
 body {
@@ -36,6 +46,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 strong {
