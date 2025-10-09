@@ -9,7 +9,6 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   /* background-color: #e67e22; */
   border-radius: 8px;
-  height: 80rem;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
 }
